@@ -1,0 +1,21 @@
+---
+'':
+- type: A
+  ttl: 600
+  value: 76.76.21.21
+- type: TXT
+  ttl: 600
+  value: v=spf1 include:_spf.porkbun.com include:spf.improvmx.com ~all	
+- type: MX
+  ttl: 600
+  value: mx1.improvmx.com.
+  priority: 10
+- type: MX
+  ttl: 600
+  value: mx2.improvmx.com.
+  priority: 20
+
+'www':
+- type: CNAME
+  ttl: 600
+  value: cname.vercel-dns.com.
