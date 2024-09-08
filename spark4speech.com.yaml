@@ -19,3 +19,8 @@
 - type: CNAME
   ttl: 600
   value: cname.vercel-dns.com.
+
+'_gh-spark4speech-o':
+- type: TXT
+  ttl: 600
+  value: 347c02383a
