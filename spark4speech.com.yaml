@@ -1,8 +1,28 @@
 ---
 '':
+- type: SOA:
+  ns_name: curitiba.ns.porkbun.com
+  hostmaster: dns.cloudflare.com
+  serial: 2351244800
+  refresh: 10000
+  retry: 2400
+  expire: 604800
+  minimum_ttl: 1800
 - type: A
   ttl: 600
   value: 76.76.21.21
+- type: NS
+  ttl: 86400
+  value: curitiba.ns.porkbun.com
+- type: NS
+  ttl: 86400
+  value: fortaleza.ns.porkbun.com
+- type: NS
+  ttl: 86400
+  value: maceio.ns.porkbun.com
+- type: NS
+  ttl: 86400
+  value: salvador.ns.porkbun.com
 - type: TXT
   ttl: 600
   value: v=spf1 include:_spf.porkbun.com include:spf.improvmx.com ~all	
@@ -19,6 +39,20 @@
 - type: CNAME
   ttl: 600
   value: cname.vercel-dns.com.
+- type: A
+  ttl: 600
+  value: 76.76.21.123
+- type: A
+  ttl: 600
+  value: 76.76.21.93
+- type: SOA:
+  ns_name: cname.vercel-dns.com
+  hostmaster: vercel-dns.com
+  serial: 393217
+  refresh: 3600
+  retry: 3474532
+  expire: 1853042947
+  minimum_ttl: 1882208005
 
 '_gh-spark4speech-o':
 - type: TXT
