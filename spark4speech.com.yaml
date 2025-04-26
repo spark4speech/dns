@@ -54,6 +54,11 @@
   expire: 1853042947
   minimum_ttl: 1882208005
 
+'web':
+- type: CNAME
+  ttl: 660
+  value: cname.vercel-dns.com.
+
 '_gh-spark4speech-o':
 - type: TXT
   ttl: 600
